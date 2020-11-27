@@ -1,11 +1,18 @@
 HELP.md
 target/
+<<<<<<< HEAD
 mvn/wrapper/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
 mvnw.
-mvnw
+=======
+.mvn/wrapper/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+mvnv.
+>>>>>>> 65ecd824e3ee41ad0d8bdd9c3a97442800c47c48
 
 ### STS ###
 .apt_generated
