@@ -1,11 +1,12 @@
 HELP.md
 target/
 <<<<<<< HEAD
-mvn/wrapper/
+.mvn/wrapper/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
-mvnw.
+mvnw.cmd
+mvnw
 =======
 .mvn/wrapper/
 !.mvn/wrapper/maven-wrapper.jar
