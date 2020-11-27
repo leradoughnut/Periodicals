@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>Errors</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}"/>
+</head>
+<body>
+<h1>Errors:</h1>
+<a href="/main-page">Main Page</a>
+<br/><br/>
+<div>
+    <tr th:each ="error : ${errors}">
+        <td th:utext="${error}">...</td>
+    </tr>
+
+</div>
+</body>
+</html>
